@@ -1,0 +1,26 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button id="mybuttom">Click me</button>
+    <p id="myData"></p>
+    <input type="text" />
+    <p id="doc1">This is static page</p>
+    <p id="doc2">Hello...!</p>
+</body>
+<script>
+    document.getElementById("doc1").innerHTML = "This dynamic HTML"
+    document.getElementById("doc2").innerHTML = "Hello javaScript"
+    document.getElementById("mybuttom").onclick = displayDate
+    function displayDate() {
+        document.getElementById("myData").innerHTML = Date();
+
+    }
+</script>
+
+</html>

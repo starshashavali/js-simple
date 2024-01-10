@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function chaneToAngular(){
+            var imgRef=document.getElementById("image");
+            imgRef.src="https://cdn.freebiesupply.com/logos/large/2x/angular-icon-1-logo-png-transparent.png";
+        }
+
+        function changeToReact(){
+            var imgRef=document.getElementById("image");
+            imgRef.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy-2TAD_n_Byh0h6q2dBSvKAR_-nrI1_WC3w&usqp=CAU";
+        }
+    </script>
+    <style>
+        div{
+            text-align: center;
+            margin-top: 50px;
+           
+        }
+        button{
+            margin: 10px;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img id="image"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy-2TAD_n_Byh0h6q2dBSvKAR_-nrI1_WC3w&usqp=CAU"
+        width="200px" height="100px"><br>
+        <button onclick="changeToReact()">React JS</button>
+        <button onclick="chaneToAngular()">Angular</button>
+    </div>
+</body>
+</html>                                
